@@ -9,3 +9,10 @@ scripts, fonts and images are plain files in `docs/` (served by GitHub Pages), s
   (the second argument is the URL path the site is served from).
 
 Forms show a notice instead of sending, because a static site has no server.
+
+## Deployments
+
+- Vercel: https://childcare-static.vercel.app (built from `vercel-site/`, exported with base `/`)
+- GitHub Pages: https://shashankphatkure.github.io/childcare-static/ (built from `docs/`, base `/childcare-static/`)
+
+Redeploy to Vercel: `cd vercel-site && npx vercel deploy --prod --yes --project childcare-static`
